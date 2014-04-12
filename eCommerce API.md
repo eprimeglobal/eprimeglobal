@@ -98,7 +98,7 @@ http://ecommerce-domain.com/handler.php?command=check&account=[account]&qxt_serv
 
 #### Web interface on the sever side of the project should generate following answer in xml:
 
-> <?xml version="1.0" encoding="windows-1251"?><br />
+> <?xml version="1.0" encoding="UTF-8"?><br />
 > &lt;response&gt;<br />
 > &nbsp;&nbsp;&nbsp;&nbsp;&lt;result&gt;[result]&lt;/result&gt;<br />
 > &nbsp;&nbsp;&nbsp;&nbsp;&lt;comment&gt;[comment]&lt;/comment&gt;<br />
@@ -192,7 +192,7 @@ http://ecommerce-domain.com/handler.php?command=pay&account=[account]&qxt_server
 
 
 #### Web interface on the sever side of the project should generate following answer in xml:
-> <?xml version="1.0" encoding="windows-1251"?><br />
+> <?xml version="1.0" encoding="UTF-8"?><br />
 > &lt;response&gt;<br />
 > &nbsp;&nbsp;&nbsp;&nbsp;&lt;id&gt;[id]&lt;/id&gt;<br />
 > &nbsp;&nbsp;&nbsp;&nbsp;&lt;merchant_id&gt;[merchant_id]&lt;/merchant_id&gt;<br />
