@@ -17,7 +17,7 @@ At the request body you should send structure like this: (json formatted)
 		pay_system_id: {{Desired pay system id}},
 		withdrawals: [
 			{
-				transaction_id: "{{unique transfer id ad **your** system}}",
+				transaction_id: "{{unique transfer id at your system}}",
 				account: "{{desired pay system user account id (login, email, etc)}}",
 				amount: {{amount in desired pay system currency, floating delimiter is dot}}
 			}
