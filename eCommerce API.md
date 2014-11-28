@@ -144,7 +144,7 @@ http://ecommerce-domain.com/handler.php
 and following additional identification parameters are being used : **server** and **group**
 
 #### Request example:
-http://ecommerce-domain.com/handler.php?command=pay&account=[account]&qxt_server=[qxt_server]&qxt_group=[qxt_group]&sum=[sum]&user_payed=[user_payed]&pay_system_id=[pay_system_id]&game_sum=[game_sum]&currency_id=[currency_id]&price=[price]&rate=[rate]&user_fee=[user_fee]&fee=[fee]&game_count=[game_count]&client_sum=[client_sum]&sign=d9db3650cb33e3fdae0efa696cffc9f2
+http://ecommerce-domain.com/handler.php?command=pay&account=[account]&qxt_server=[qxt_server]&qxt_group=[qxt_group]&sum=[sum]&user_paied=[user_paied]&pay_system_id=[pay_system_id]&game_sum=[game_sum]&currency_id=[currency_id]&price=[price]&rate=[rate]&user_fee=[user_fee]&fee=[fee]&game_count=[game_count]&client_sum=[client_sum]&sign=d9db3650cb33e3fdae0efa696cffc9f2
 
 <table>
 <tr>
@@ -168,7 +168,7 @@ http://ecommerce-domain.com/handler.php?command=pay&account=[account]&qxt_server
 </tr><tr>
 <td>fee</td>	<td>Transaction fee paid by project</td>	<td>Float</td>	<td>Yes</td>
 </tr><tr>
-<td>user_payed</td>	<td>Payment sum paid by user</td>	<td>Float</td>	<td>Yes</td>
+<td>user_paied</td>	<td>Payment sum paid by user</td>	<td>Float</td>	<td>Yes</td>
 </tr><tr>
 <td>pay_system_id</td>	<td>ID of payment method used</td>	<td>Float</td>	<td>Yes</td>
 </tr><tr>
