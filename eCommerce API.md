@@ -128,7 +128,7 @@ http://ecommerce-domain.com/handler.php?command=check&account=[account]&qxt_serv
 </tr><tr>
 <td>2</td>	<td>Payment identification parameters are incorrect</td>
 </tr><tr>
-<td>3</td>	<td>Invalid md5</td>
+<td>5</td>	<td>Invalid md5</td>
 </tr><tr>
 <td>7</td>	<td>Payment with specified identification parameters cannot be done for technical reasons</td>
 </tr><tr>
