@@ -8,7 +8,7 @@ Loooking to integrate with Eprimeglobal? All you need is documentation and examp
 
 Please take a look at the following steps before you start with integration
 
-1) Create an account at https://eprimeglobal.com
+1) Create an account at https://account.eprimeglobal.com
 Once you have an account you will get your partner ID and dashboard access.
 In order to start accepting payments you will need to create a new project to monetize.
 Once it’s done you can continue with the technical integration within each project you create.
