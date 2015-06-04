@@ -55,7 +55,7 @@ if ($_GET["sign"]!=$sign)
 		"comment" => "Invalid MD5"
 	);
 
-	if ($command = "pay")
+	if ("pay" == $command)
 	{
 		$data["id"] = (int)$_GET["id"];
 		$data["merchant_id"] = 0;
