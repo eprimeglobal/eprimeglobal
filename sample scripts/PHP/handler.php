@@ -100,7 +100,7 @@ switch ($command)
 		$user_fee         = $_GET["user_fee"];//Transaction fee paid by user
 		$client_sum       = $_GET["client_sum"];//Payment sum for the payout
 		$fee              = $_GET["fee"];//Transaction fee paid by project
-		$user_payed       = $_GET["user_payed"];//Payment sum paid by user
+		$user_paid       = $_GET["user_paid"];//Payment sum paid by user
 		$pay_system_id    = $_GET["pay_system_id"];//ID of payment method used
 		$price            = $_GET["price"];//Price of the virtual currency unit on the moment of invoice creation
 		$currency_id      = $_GET["currency_id"];//Payment currency ID
