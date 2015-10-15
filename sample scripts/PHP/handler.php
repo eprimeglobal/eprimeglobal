@@ -57,7 +57,7 @@ if ($_GET["sign"]!=$sign)
 
 	if ("pay" == $command)
 	{
-		$data["id"] = (int)$_GET["id"];
+		$data["id"] = $_GET["id"];
 		$data["merchant_id"] = 0;
 		$data["sum"] = 0;
 	}
@@ -132,7 +132,7 @@ switch ($command)
 		else $project_transaction_id = $merchant_id;
 
 		$response = return_result(Array(
-		                          "id"=>(int)$id,
+		                          "id"=>$id,
 		                          "merchant_id"=>$project_transaction_id,
 		                          "sum"=>$sum,
 		                          "result"=>$your_result_code,
