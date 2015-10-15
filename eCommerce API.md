@@ -156,7 +156,7 @@ http://ecommerce-domain.com/handler.php?command=pay&account=[account]&qxt_server
 </tr><tr>
 <td>qxt_[param_name]</td>	<td>Additional payment identification parameters</td> <td></td>		<td>If no additional parameters are specified in project settings, no qxt_ parameters are sent</td>
 </tr><tr>
-<td>id</td>	<td>Transaction ID</td>	<td>Integer</td>	<td>Yes</td>
+<td>id</td>	<td>Transaction ID</td>	<td>String</td>	<td>Yes</td>
 </tr><tr>
 <td>merchant_id</td>	<td>Merchant transaction ID</td> 	<td>Integer</td>	<td>Is only sent in repeating request. Is not sent in initial request.</td>
 </tr><tr>
