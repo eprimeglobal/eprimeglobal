@@ -94,7 +94,7 @@ switch ($command)
 		break;
 
 	case "pay":
-		$id               = $_GET["id"];//Qutella transaction ID
+		$id               = $_GET["id"];//ePrimeGLobal transaction ID
 		$merchant_id      = $_GET["merchant_id"];//Projects transaction ID. Is only sent in repeating request. Is not sent in initial request or value sent is blank.
 		$sum              = $_GET["sum"];//Payment sum to be converted into virtual currency
 		$user_fee         = $_GET["user_fee"];//Transaction fee paid by user
