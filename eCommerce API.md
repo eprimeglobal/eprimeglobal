@@ -26,9 +26,8 @@ On the **pay** step payment confirmation comes in. A request is sent to the web 
 </tr><tr>
 </table>
 
-
 <br />
-#### Forming an md5 signature string: <br />
+### Forming an md5 signature string: <br />
 **[command][sorted_params][secret_key]**<br />
 **[command]** – value of command paremeter<br />
 **[secret_key]** – secret key specified in the project settings,<br />
