@@ -11,44 +11,25 @@ On the **pay** step payment confirmation comes in. A request is sent to the web 
 
 #### List of parameters present in every request:
 
-
 <table>
-<tr>
-<td>Parameter name</td>	<td>Description</td>
-</tr><tr>
-<td>command</td>	<td>Request type (check/pay)</td>
-</tr><tr>
-<td>account</td>	<td>Payment ID (main identification parameter)</td>
-</tr><tr>
-<td>qxt_[param_name]</td>	<td>Additional identification parameters specified in the project settings. These paramemters get tranfered with <b>qxt_</b> prefix. All additional parameters, added in the project settings are being sent.</td>
-</tr><tr>
-<td>sign</td>	<td>md5 signature</td>
-</tr><tr>
+<tbody>
+<tr><td>Parameter name</td>	<td>Description</td></tr>
+<tr><td>command</td>	<td>Request type (check/pay)</td></tr>
+<tr><td>account</td>	<td>Payment ID (main identification parameter)</td></tr>
+<tr><td>qxt_[param_name]</td>	<td>Additional identification parameters specified in the project settings. These paramemters get tranfered with <b>qxt_</b> prefix. All additional parameters, added in the project settings are being sent.</td></tr>
+<tr><td>sign</td>	<td>md5 signature</td></tr>
+</tbody>
 </table>
-
-<br />
-### Forming an md5 signature string: <br />
-**[command][sorted_params][secret_key]**<br />
-**[command]** – value of command paremeter<br />
-**[secret_key]** – secret key specified in the project settings,<br />
-**[sorted_params]**  -  string consisting of all the parameter values in the request except **sign**, **command** and **test** (if test parameter was sent) in alphabetic order of **their names**.<br />
-
-
 For example secret key is being set to: **hd1827** and following parameters are present in the request:
 <table>
-<tr>
-<td>Parameter name</td>	<td>Value</td>
-</tr><tr>
-<td>command</td>	<td>check</td>
-</tr><tr>
-<td>account</td>	<td>user_login</td>
-</tr><tr>
-<td>qxt_server</td>	<td>server</td>
-</tr><tr>
-<td>qxt_group</td>	<td>vip</td>
-</tr><tr>
-<td>sign</td>	<td>e579c5c8a73221eece608f6f70d12998</td>
-</tr><tr>
+<tbody>
+<tr><td>Parameter name</td>	<td>Value</td></tr>
+<tr><td>command</td>	<td>check</td></tr>
+<tr><td>account</td>	<td>user_login</td></tr>
+<tr><td>qxt_server</td>	<td>server</td></tr>
+<tr><td>qxt_group</td>	<td>vip</td></tr>
+<tr><td>sign</td>	<td>e579c5c8a73221eece608f6f70d12998</td></tr>
+</tbody>
 </table>
 
 
