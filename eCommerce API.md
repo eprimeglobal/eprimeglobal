@@ -20,6 +20,13 @@ On the **pay** step payment confirmation comes in. A request is sent to the web 
 <tr><td>sign</td>	<td>md5 signature</td></tr>
 </tbody>
 </table>
+
+#### Forming an md5 signature string: <br />
+**[command][sorted_params][secret_key]**<br />
+**[command]** – value of command paremeter<br />
+**[secret_key]** – secret key specified in the project settings,<br />
+**[sorted_params]**  -  string consisting of all the parameter values in the request except **sign**, **command** and **test** (if test parameter was sent) in alphabetic order of **their names**.<br />
+
 For example secret key is being set to: **hd1827** and following parameters are present in the request:
 <table>
 <tbody>
